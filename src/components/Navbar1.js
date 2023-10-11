@@ -16,13 +16,12 @@ const Navbar1 = () => {
     >
       <Container>
 
-      <Link to='/'> <Navbar.Brand>Appliance Minder</Navbar.Brand> </Link>
+      <Link to='/' className="link-style"> <Navbar.Brand>Appliance Minder</Navbar.Brand> </Link>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to='/'> <Nav.Link href="#home">Home</Nav.Link> </Link>
-            <Link to='/myaccount'> <Nav.Link href="#home">My Account</Nav.Link> </Link>
+            <Link to='/myaccount' className="link-style"> <Nav.Link href="#home">My Account</Nav.Link> </Link>
            
             <NavDropdown title="My Properties" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Home 1</NavDropdown.Item>

@@ -1,14 +1,13 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 function Home() {
+
+
   return (
-    <div className="cont">
-      <h1>Welcome to your Dashboard</h1>
-    <div className="home-container"> 
+    <Container fluid >
     
-    </div>
- 
-    </div>
+    </Container>
   );
 }
 

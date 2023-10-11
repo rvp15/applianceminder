@@ -22,4 +22,6 @@ background-attachment: fixed;  */
 
 padding: 10px 20px; /* Add padding for better readability */
 }
-  
+.link-style{
+  text-decoration: none;
+}
